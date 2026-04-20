@@ -1,1 +1,10 @@
-ci: add GitHub Actions workflow to deploy Vite app to GitHub Pages
+feat: add Vitest test suite and CI pipeline for develop branch
+
+- Install vitest, @testing-library/react, jest-dom and jsdom
+- Add test/test:watch/test:coverage scripts to package.json
+- Configure vitest in vite.config.ts with jsdom environment
+- Add setup file for jest-dom matchers
+- Add App.test.tsx with 6 smoke tests for the main page
+- Add TestPage.test.tsx with 8 tests including counter interactions
+- Add .github/workflows/ci.yml that runs on push/PR to develop:
+  lint -> type-check -> vitest -> build
