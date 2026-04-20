@@ -56,6 +56,7 @@ function TestPage() {
         detail: getComputedStyle(document.body).fontFamily,
       },
     ]
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setTests(results)
   }, [])
 
