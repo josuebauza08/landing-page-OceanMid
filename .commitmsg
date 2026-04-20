@@ -1,6 +1,0 @@
-fix: resolve lint and build errors in test files and TestPage
-
-- Remove unused userEvent import from App.test.tsx
-- Suppress react-hooks/set-state-in-effect in TestPage.tsx (valid use:
-  reading browser APIs after mount requires a useEffect + setState pattern)
-- Re-enable lint step in CI workflow
