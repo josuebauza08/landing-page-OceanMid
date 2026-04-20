@@ -68,7 +68,7 @@ function TestPage() {
       <header className="test-header">
         <div className="test-badge">TEST</div>
         <h1 className="test-title">
-          Página de Pruebas
+          pagina principal de pruebas de oceanmid
           <span className="test-subtitle">OceanMid · GitHub Pages</span>
         </h1>
         <div className="test-clock">{now.toLocaleTimeString()}</div>
