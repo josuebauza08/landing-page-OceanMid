@@ -51,7 +51,7 @@ function TestPage() {
         detail: 'useState + useEffect funcionando correctamente',
       },
       {
-        name: 'Fuente del sistema',
+        name: 'Fuente del sistema 2',
         status: 'pass',
         detail: getComputedStyle(document.body).fontFamily,
       },
