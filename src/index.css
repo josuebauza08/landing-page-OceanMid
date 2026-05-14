@@ -8,7 +8,7 @@
   --blue: #0055ff;
   --text: #f8fafc;
   --text-muted: #94a3b8;
-  --nav-height: 140px;
+  --nav-height: 180px;
 }
 
 * {
@@ -174,13 +174,9 @@ button {
 }
 
 .brand-logo {
-  height: 90px;
+  height: 150px;
   width: auto;
   object-fit: contain;
-  background-color: #ffffff;
-  padding: 10px 32px;
-  border-radius: 100px;
-  box-shadow: 0 4px 20px rgba(0, 240, 255, 0.15); /* Subtle cyan glow */
 }
 
 .nav-links {
